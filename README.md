@@ -29,6 +29,10 @@ This project aims to predict customer purchasing behavior and uncover trends in 
 - Focus marketing efforts on high-spending and promo-using customers.
 - Build more advanced models to increase prediction performance.
 
+## Findings
+-The feature importance chart shows that "Promo Code Used" is the most influential factor in the Decision Tree model, significantly impacting predictions. Other key features include "Purchase Amount (USD)," "Location," and "Item Purchased," which also contribute notably. Less important features, such as "Subscription Status" and "Discount Applied," have minimal influence on the model's decisions. This suggests that promotional activity and purchasing behavior play a crucial role in classification outcomes.
+
+
 ## 👤 Author
 **Priyansh Parmar**  
 M.S. in Data Science – Pace University  
