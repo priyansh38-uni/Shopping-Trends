@@ -1,36 +1,27 @@
-# Customer Sales Trends
+# 🛒 Customer Sales Trends Analysis
 
-A practical data science project focused on understanding customer behavior and predicting future sales trends to optimize inventory, marketing, and operations.
+This project aims to predict customer purchasing behavior and uncover trends in sales using a dataset from Kaggle. The analysis identifies key factors influencing purchases like promo code usage, purchase amount, and location.
 
----
+## 📌 Project Objectives
+- Predict whether a customer will make a purchase.
+- Identify feature importance in purchasing behavior.
+- Provide actionable business recommendations.
 
-## 🧠 Business Problem
+## 📊 Dataset
+- Source: [Kaggle Dataset - Customer Shopping Trends](https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset/data)
+- 3,900 rows of anonymized customer transaction data.
+- Features include: gender, age, product category, amount spent, location, subscription status, payment method, etc.
 
-Without clear customer segmentation or accurate sales forecasting, businesses risk overstocking, stockouts, and ineffective marketing. This project builds a machine learning model to forecast sales trends and guide strategic decisions.
+## 📈 Key Insights
+- Promo code usage is the strongest indicator of purchases.
+- Clothing and Accessories dominate sales.
+- Majority of users are non-subscribers.
+- Credit card is the preferred payment method.
 
----
+## 🧠 Model
+- **Algorithm:** Decision Tree Classifier
+- **Accuracy:** 73%
+- **AUC:** 0.679
+- **Key Features:** Promo Code Used, Purchase Amount, Item Purchased
 
-## 📊 Objectives
-
-- Forecast future sales using machine learning (XGBoost).
-- Identify customer purchasing behavior.
-- Visualize patterns across categories, regions, and demographics.
-- Help businesses reduce operational costs and increase revenue.
-
----
-
-## 📁 Dataset
-
-- **Source:** [Kaggle - Customer Shopping Trends Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset/data)
-- **Size:** 3,900 records
-- **Features:** Customer demographics, product details, purchase behavior
-
----
-
-## 🧪 How to Run
-
-```bash
-git clone https://github.com/your-username/customer-sales-trends.git
-cd customer-sales-trends
-pip install -r requirements.txt
-jupyter notebook Customer_Sales_Trends.ipynb
+## 📂 Repository Structure
