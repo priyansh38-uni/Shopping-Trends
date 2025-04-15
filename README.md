@@ -24,4 +24,12 @@ This project aims to predict customer purchasing behavior and uncover trends in 
 - **AUC:** 0.679
 - **Key Features:** Promo Code Used, Purchase Amount, Item Purchased
 
-## 📂 Repository Structure
+## 💡 Recommendations
+- Use personalized promo codes to improve engagement.
+- Focus marketing efforts on high-spending and promo-using customers.
+- Build more advanced models to increase prediction performance.
+
+## 👤 Author
+**Priyansh Parmar**  
+M.S. in Data Science – Pace University  
+📧 pp91088n@pace.edu
